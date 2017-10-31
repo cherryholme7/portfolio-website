@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property='og:image' content="http://pappsicle.com/Images/App-Logo.jpg"/>
+    <link rel="shortcut icon" type="image/x-icon" href="Images/logo.ico">
+	<link rel="stylesheet" href="Styles/CSS/animate.css">
+    <title>Pappsicle</title>
+	<link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+    <link href="Styles/bootstrap-3.3.4-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="Styles/CSS/template.css" rel="stylesheet" type="text/css">
+    <link href="Styles/CSS/nprogress.css" rel="stylesheet" type="text/css">
+    <link href="Styles/CSS/index.css" rel="stylesheet" type="text/css">
+    <link media="handheld, only screen and (max-width: 768px), only screen and (max-device-width: 768px)" href="Styles/CSS/mobile_tablet.css" type="text/css" rel="stylesheet"/>
+    <link media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="Styles/CSS/mobile_phone.css" type="text/css" rel="stylesheet"/>
+    <script src="Styles/JS/nprogress.js"></script>
+    <script src="Styles/JS/jquery.min.js"></script>
+    <script src="Styles/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+    <script src="Styles/JS/jquery-ui.min.js"></script>
+    <script src="Styles/JS/template.js"></script>
+    <script src="Styles/JS/index.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <!-- Header -->
+    
+	<!-- loader -->
+	<div class="spinner">
+        <div class="cube1"></div>
+        <div class="cube2"></div>
+    </div>
+	
+    <!-- Navigation -->
+	<!-- Desktop Nav -->
+	<nav class="not-mobile">
+		<div class="desktopBrand">
+			<a href="index.html">
+				Pappsicle
+			</a>
+		</div>
+                <ul class="desktopUL">
+                    <li >
+                        <a href="games.html">
+							<span class="glyphicon glyphicon-ice-lolly-tasted"></span>
+                            <span class="thin"></span><span class="thick">Games</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+							<span class="glyphicon glyphicon-user"></span>
+                            <span class="thin">About</span><span class="thick">Us</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+							<span class="glyphicon glyphicon-envelope"></span>
+                            <span class="thin">Contact</span><span class="thick">Us</span>
+                        </a>
+                    </li>
+					<li>
+						<a href="https://www.facebook.com/pages/Pappsicle/473252466167404" target="_blank" class="fa fa-facebook-f fa-3x"></a>
+					</li>
+					<li>
+						<a href="https://twitter.com/pappsiclegames" target="_blank" class="fa fa-twitter  fa-3x"></a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/company/pappsicle" target="_blank" class="fa fa-linkedin fa-3x"></a>
+					</li>
+    </nav>
+	<!-- Mobile Nav -->
+    <nav class="not-desktop">
+		<div id="nav-main-title">	 
+				<a href="index.html" id="nav-main-title-brand">
+					Pappsicle
+				</a>	
+		</div>
+		<a class="nav-menu-button-open"><span></span></a>
+		<div class="nav-menu">
+			<!--<i class="fa fa-search fa-2x"></i>
+			<div class="fa-search-div">
+				<input type="text" name="search-bar" id="search-bar" placeholder="What are you looking for?" class="search-bar">					
+			</div>-->
+			<div class="row">
+				<div class="margin-top col-sm-6">
+					<ul>				
+						<li>
+							<a href="games.html">
+								<span class="glyphicon glyphicon-ice-lolly-tasted"></span>
+								<span class="thin"></span><span class="thick">Games</span>
+							</a>
+						</li>
+						<li>
+							<a href="about.html">
+								<span class="glyphicon glyphicon-user"></span>
+								<span class="thin">About</span><span class="thick">Us</span>
+							</a>
+						</li>
+						<li>
+							<a href="contact.html">
+								<span class="glyphicon glyphicon-envelope"></span>
+								<span class="thin">Contact</span><span class="thick">Us</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="margin-top col-sm-6">
+					<ul>
+						<!--<li class="nav-menu-title"><span class="nav-menu-title-span">Reach Us</span></li>-->
+						<li>Call us on <span class="thick">819-777-7777</span></li>
+						<li>Email us at <span class="thick">info@pappsicle.com</span></li>
+						<li><hr></li>
+						<li>
+							<a href="https://www.facebook.com/pages/Pappsicle/473252466167404" target="_blank" class="fa fa-facebook-f fa-3x"></a>
+							<a href="https://twitter.com/pappsiclegames" target="_blank" class="fa fa-twitter  fa-3x"></a>
+							<a href="http://pappsiclegames.tumblr.com/" target="_blank" class="fa fa-tumblr fa-3x"></a>
+						</li>
+						<li><br></li>
+					</ul>
+				</div>
+			</div>
+			<!--<div class="row">
+				<div class="margin-top nav-col-left col-sm-6">
+					<ul class="full-width-ul">
+						<li class="nav-menu-title"><span class="nav-menu-title-span">Share Us</span></li>
+						<li> 
+							<div id="fb-root"></div>
+                            <div class="fb-page" data-href="https://www.facebook.com/473252466167404" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/473252466167404"><a href="https://www.facebook.com/473252466167404">Pappsicle</a></blockquote></div></div>
+                        </li>
+					</ul>
+				</div>
+				<div class="margin-top nav-col-right col-sm-6">
+					<ul class="full-width-ul">
+						<li class="nav-menu-title"><span class="nav-menu-title-span">Check Also</span></li>
+						<li> 
+							<a class="nav-menu-ad" href="http://acculines.ca/" rel="home">
+								<img src="http://acculines.ca/wp-content/uploads/cropped-cropped-logo-acculines-signs-phone-number1.png" alt="Acculines &amp; Signs">
+							</a>
+						</li>
+					</ul>
+				</div>	
+			</div>-->
+		</div>
+	</nav>
+	
+	<!--Content-->
+	<article>
+        <div id="pageName">Code. 404</div>
+		<div class="articlewrapper">
+			<br><br>
+			<div class="articleTopic">PAGE NOT FOUND</div>
+			<div class="articleContent">
+				<p>Sorry, but the page you were looking for does not exist.</p>	
+				<p>It looks like this was the result of either a mistyped address or a link that was out of date.</p>
+				<br>	
+				<p>You can start at our home page.</p>
+				<div class="center">
+					<a href="index.html"class="button">Home</a>
+				</div>
+			</div>
+		
+		</div>
+		<br><br><br><br>
+	</article>
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col-sm-6">
+				<a href="https://www.facebook.com/pages/Pappsicle/473252466167404" target="_blank" class="fa fa-facebook-f fa-3x"></a>
+				<a href="https://twitter.com/pappsiclegames" target="_blank" class="fa fa-twitter  fa-3x"></a>
+				<a href="http://pappsiclegames.tumblr.com/" target="_blank" class="fa fa-tumblr fa-3x"></a>
+			</div>
+            <div class="col-sm-6">
+                <span>Website designed and hosted by Kevin Cherryholme and Nicolas Beaulieu.<br>Copyright &copy; Pappsicle 2015 All Rights Reserved.</span>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

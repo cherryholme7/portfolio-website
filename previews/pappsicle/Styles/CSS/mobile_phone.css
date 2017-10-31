@@ -1,0 +1,100 @@
+.not-mobile{
+	display: none !important;
+}
+.not-desktop{
+	display: inline;
+}
+.desktopDispear{
+	top: 0em;
+}
+header{
+	margin-top: 3.5em;/*From height of nav*/
+}
+nav{
+	height: 3.5em;
+}
+article p{
+    padding: 0em;
+	font-size: 1.3em;
+	line-height: 170%;
+}
+#quote{
+	font-size: 3em;
+}
+.articlewrapper{
+	width: 100%;
+	padding: 0em;
+}
+.articleContent{
+	padding-top: 0em;
+	padding-bottom: 0em;
+	width: 100%;
+}
+footer a{
+	padding: 0em;
+}
+footer img{
+	opacity: 1;
+}
+/*about.html*/
+.user {
+    width: 100%;
+}
+.user_name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    color: #fff;
+    letter-spacing: 1.75px;
+    text-align: right;
+}
+/*games.html*/
+.game{
+	width: 100%;
+}
+.game_info{
+	width: 100%;
+}
+.game_info_btn{
+	display:none;
+}
+/*nav css*/
+.nav-menu{
+	font-size: 1.4rem;
+}
+#nav-main-title{
+	width: 100%;
+	text-align: left;
+}
+/*loading animation*/
+@keyframes stretchdelay {
+    0% {
+        transform: translateX(0px) scaleY(0.2);
+        -webkit-transform: translateX(0px) scaleY(0.2);
+    }
+    20% {
+        transform: translateX(0px) scaleY(0.2);
+        -webkit-transform: translateX(0px) scaleY(0.2) ;
+    }
+    40% {
+        transform: translateX(0px) scaleY(0.2) ;
+        -webkit-transform: translateX(0px) scaleY(0.2);
+
+
+    }
+    60% {
+        transform: translateX(0px) scaleY(0.2);
+        -webkit-transform: translateX(0px) scaleY(0.2);
+    }
+    80% {
+        transform: translateX(0px) scaleY(0.2);
+        -webkit-transform: translateX(0px)scaleY(0.2);
+    }
+    100% {
+        transform: translateY(-100px) scaleY(0.2);
+        -webkit-transform: translateY(-100px) scaleY(0.2);
+    }
+}
+.spinner {
+    left:47%;
+}
